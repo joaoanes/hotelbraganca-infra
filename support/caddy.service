@@ -1,0 +1,9 @@
+[Unit]
+After=network-online.target
+[Service]
+User=root
+ExecStart=/usr/bin/caddy
+WorkingDirectory=/home/ubuntu/
+Restart=on-failure
+[Install]
+WantedBy=multi-user.target

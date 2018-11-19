@@ -1,0 +1,7 @@
+admin.hotelbraganca.club {
+  proxy / localhost:8000 { transparent }
+}
+
+map.hotelbraganca.club {
+  proxy / localhost:8123
+}
